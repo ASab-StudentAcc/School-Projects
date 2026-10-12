@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Dark_Blue"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/topBar"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/Crimson_Red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/topBarBorder"
+        android:layout_width="0dp"
+        android:layout_height="4dp"
+        android:background="@color/Golden_Orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBar" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:importantForAccessibility="no"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@id/topBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/topBar"
+        app:srcCompat="@drawable/holy_cross_crossian_logo_no_background_" />
+
+    <View
+        android:id="@+id/bottomBarBorder"
+        android:layout_width="0dp"
+        android:layout_height="4dp"
+        android:background="@color/Golden_Orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottomBar" />
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:background="@color/Crimson_Red"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- Profile -->
+        <Button
+            android:id="@+id/superButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/nav_button_background"
+            android:focusable="true"
+            android:gravity="center"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/nav_profile_icon"
+            android:padding="2dp"
+            android:text="Profile"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <!-- Grades -->
+        <Button
+            android:id="@+id/gradesButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/nav_button_background"
+            android:focusable="true"
+            android:gravity="center"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/nav_grades_icon"
+            android:padding="2dp"
+            android:text="Grades"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <!-- Accountabilities -->
+        <Button
+            android:id="@+id/accountabilitiesButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/nav_button_background"
+            android:focusable="true"
+            android:gravity="center"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/nav_accountabilities_icon"
+            android:padding="2dp"
+            android:text="Accountabilities"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+
+        <!-- Evaluation -->
+        <Button
+            android:id="@+id/evaluationButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/nav_button_background"
+            android:focusable="true"
+            android:gravity="center"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/nav_evaluation_icon"
+            android:padding="2dp"
+            android:text="Evaluation"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Welcome Crossian's"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/topBar"
+        app:layout_constraintEnd_toStartOf="@id/notificationBell"
+        app:layout_constraintStart_toEndOf="@id/imageView"
+        app:layout_constraintTop_toTopOf="@id/topBar"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="4dp" />
+
+    <ImageView
+        android:id="@+id/notificationBell"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="Notifications"
+        app:layout_constraintBottom_toBottomOf="@id/topBar"
+        app:layout_constraintEnd_toStartOf="@id/menuIcon"
+        app:layout_constraintTop_toTopOf="@id/topBar"
+        app:srcCompat="@drawable/bell_white_no_background_" />
+
+    <ImageView
+        android:id="@+id/menuIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="12dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Menu"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@id/topBar"
+        app:layout_constraintEnd_toEndOf="@id/topBar"
+        app:layout_constraintTop_toTopOf="@id/topBar"
+        app:srcCompat="@drawable/menu_logo__no_background_" />
+
+    <TextView
+        android:id="@+id/Announcement_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Latest Announcements"
+        android:textColor="@color/Golden_Orange"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBarBorder" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/announcementCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@color/card_color"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Announcement_Text">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/imageContainer"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardCornerRadius="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:strokeColor="@color/Golden_Orange"
+                app:strokeWidth="3dp">
+
+                <ImageView
+                    android:id="@+id/Intrams"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/intrams"
+                    android:importantForAccessibility="no" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/announcementTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Upcoming Intramurals 2026"
+                android:textColor="@color/primary_text"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/imageContainer"
+                app:layout_constraintTop_toTopOf="@id/imageContainer" />
+
+            <TextView
+                android:id="@+id/announcementDesc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:text="Get ready for the biggest sports event of the year! Registration for basketball, volleyball, and e-sports starts next Monday."
+                android:textColor="@color/secondary_text"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/imageContainer"
+                app:layout_constraintTop_toBottomOf="@id/announcementTitle" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/Schedule_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Weekly Class Schedule"
+        android:textColor="@color/Golden_Orange"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/announcementCard" />
+
+    <ScrollView
+        android:id="@+id/scheduleScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:paddingHorizontal="16dp"
+        app:layout_constraintBottom_toTopOf="@id/Agendas_Title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Schedule_Title">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
+
+            <!-- Monday -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Monday"
+                android:textColor="@color/Golden_Orange"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                app:cardBackgroundColor="@color/card_alternate"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="08:00 AM - 10:00 AM"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Application Development 1 - Lab 302"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Tuesday -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Tuesday"
+                android:textColor="@color/Golden_Orange"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                app:cardBackgroundColor="@color/card_alternate"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="01:00 PM - 02:30 PM"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Discrete Mathematics - Room 405"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Wednesday -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Wednesday"
+                android:textColor="@color/Golden_Orange"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                app:cardBackgroundColor="@color/card_alternate"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="09:00 AM - 12:00 PM"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Software Engineering - Room 201"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/Agendas_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="My Agendas"
+        android:textColor="@color/Golden_Orange"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/agendaCard"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/agendaCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardBackgroundColor="@color/card_color"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:strokeColor="@color/Golden_Orange"
+        app:strokeWidth="2dp"
+        app:layout_constraintBottom_toTopOf="@id/bottomBarBorder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Write your notes or tasks here..."
+                app:hintTextColor="@color/Dark_Blue"
+                app:boxStrokeColor="@color/Crimson_Red"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/agendaInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:minLines="3"
+                    android:textColor="@color/Fern_Green"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

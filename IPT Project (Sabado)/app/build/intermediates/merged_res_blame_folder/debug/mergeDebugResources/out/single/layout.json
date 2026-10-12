@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.project_1assignment1_sabado.app-mergeDebugResources-36:/layout/activity_main.xml",
+        "source": "com.example.project_1assignment1_sabado.app-main-39:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.project_1assignment1_sabado.app-mergeDebugResources-36:/layout/activity_profile.xml",
+        "source": "com.example.project_1assignment1_sabado.app-main-39:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.example.project_1assignment1_sabado.app-mergeDebugResources-36:/layout/activity_accountabilities.xml",
+        "source": "com.example.project_1assignment1_sabado.app-main-39:/layout/activity_accountabilities.xml"
+    },
+    {
+        "merged": "com.example.project_1assignment1_sabado.app-mergeDebugResources-36:/layout/activity_grades.xml",
+        "source": "com.example.project_1assignment1_sabado.app-main-39:/layout/activity_grades.xml"
+    },
+    {
+        "merged": "com.example.project_1assignment1_sabado.app-mergeDebugResources-36:/layout/activity_evaluation.xml",
+        "source": "com.example.project_1assignment1_sabado.app-main-39:/layout/activity_evaluation.xml"
+    }
+]

@@ -1,0 +1,8 @@
+com.example.project_1assignment1_sabado.app-pngs-0 C:\Users\Mico\AndroidStudioProjects\IPT Project (Sabado)\app\build\generated\res\pngs\debug
+com.example.project_1assignment1_sabado.app-updated_navigation_xml-1 C:\Users\Mico\AndroidStudioProjects\IPT Project (Sabado)\app\build\generated\updated_navigation_xml\debug
+com.example.project_1assignment1_sabado.app-packageDebugResources-2 C:\Users\Mico\AndroidStudioProjects\IPT Project (Sabado)\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.project_1assignment1_sabado.app-packageDebugResources-3 C:\Users\Mico\AndroidStudioProjects\IPT Project (Sabado)\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.project_1assignment1_sabado.app-debug-4 C:\Users\Mico\AndroidStudioProjects\IPT Project (Sabado)\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.project_1assignment1_sabado.app-debug-5 C:\Users\Mico\AndroidStudioProjects\IPT Project (Sabado)\app\src\debug\res
+com.example.project_1assignment1_sabado.app-main-6 C:\Users\Mico\AndroidStudioProjects\IPT Project (Sabado)\app\src\main\res
+gradleHome-0 C:\Users\Mico\.gradle

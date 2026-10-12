@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Crimson_Red">#9E1830</color>
+    <color name="Dark_Blue">#101C30</color>
+    <color name="Golden_Orange">#F5B01D</color>
+    <color name="black">#FFF3F5F8</color>
+    <color name="card_alternate">#FF26354A</color>
+    <color name="card_color">#FF1D2A3D</color>
+    <color name="primary_text">#FFF3F5F8</color>
+    <color name="secondary_text">#FFCBD2DE</color>
+</resources>

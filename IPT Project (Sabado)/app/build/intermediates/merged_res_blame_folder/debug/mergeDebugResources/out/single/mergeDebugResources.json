@@ -1,0 +1,162 @@
+[
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\layout_activity_accountabilities.xml.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\layout\\activity_accountabilities.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\drawable_google_logo__no_background_.png.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\drawable\\google_logo__no_background_.png"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\drawable_menu_logo__no_background_.png.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\drawable\\menu_logo__no_background_.png"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\layout_activity_grades.xml.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\layout\\activity_grades.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\drawable_accountabilities_removebg_preview.png.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\drawable\\accountabilities_removebg_preview.png"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\drawable_profile_generic_2_removebg_preview.png.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\drawable\\profile_generic_2_removebg_preview.png"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\drawable_grades_removebg_preview.png.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\drawable\\grades_removebg_preview.png"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\drawable_nav_profile_icon.xml.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\drawable\\nav_profile_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\drawable_bell_white_no_background_.png.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\drawable\\bell_white_no_background_.png"
+    },
+    {
+        "merged": "com.example.project_1assignment1_sabado.app-debug-37:/drawable_nav_grades_icon.xml.flat",
+        "source": "com.example.project_1assignment1_sabado.app-main-39:/drawable/nav_grades_icon.xml"
+    },
+    {
+        "merged": "com.example.project_1assignment1_sabado.app-debug-37:/drawable_nav_accountabilities_icon.xml.flat",
+        "source": "com.example.project_1assignment1_sabado.app-main-39:/drawable/nav_accountabilities_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\drawable_nav_grades_icon.xml.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\drawable\\nav_grades_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\drawable-xxhdpi_holy_cross_crossian_logo_no_background_.png.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\drawable-xxhdpi\\holy_cross_crossian_logo_no_background_.png"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\drawable_facebook_logo_no_background_.png.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\drawable\\facebook_logo_no_background_.png"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\layout_activity_evaluation.xml.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\layout\\activity_evaluation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\drawable_intrams.jpg.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\drawable\\intrams.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\drawable_evaluation_removebg_preview.png.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\drawable\\evaluation_removebg_preview.png"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\drawable_nav_evaluation_icon.xml.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\drawable\\nav_evaluation_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\drawable_nav_button_background.xml.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\drawable\\nav_button_background.xml"
+    },
+    {
+        "merged": "com.example.project_1assignment1_sabado.app-debug-37:/drawable_nav_profile_icon.xml.flat",
+        "source": "com.example.project_1assignment1_sabado.app-main-39:/drawable/nav_profile_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\drawable_nav_accountabilities_icon.xml.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\drawable\\nav_accountabilities_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-debug-37:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Mico\\.gradle\\daemon\\9.5.0\\com.example.project_1assignment1_sabado.app-main-39:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.project_1assignment1_sabado.app-debug-37:/drawable_nav_evaluation_icon.xml.flat",
+        "source": "com.example.project_1assignment1_sabado.app-main-39:/drawable/nav_evaluation_icon.xml"
+    }
+]
