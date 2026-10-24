@@ -1,0 +1,699 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap");
+
+:root {
+  --ink: #243128;
+  --muted: #7c877d;
+  --green: #45634c;
+  --green-dark: #344e3a;
+  --paper: #f7f7f1;
+  --line: #e4e7dd;
+  --white: #fffefa;
+  --error: #a7443c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "DM Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.login-page {
+  align-items: center;
+  background:
+    radial-gradient(ellipse at 12% 18%, rgba(219, 226, 205, 0.55), transparent 31%),
+    radial-gradient(ellipse at 88% 84%, rgba(230, 222, 202, 0.55), transparent 30%),
+    var(--paper);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 48px 20px 26px;
+  position: relative;
+}
+
+.login-card {
+  background: rgba(255, 254, 250, 0.96);
+  border: 1px solid rgba(228, 231, 221, 0.9);
+  border-radius: 16px;
+  box-shadow: 0 22px 65px rgba(46, 62, 45, 0.09);
+  max-width: 430px;
+  padding: 42px 44px 30px;
+  width: 100%;
+}
+
+.brand-mark {
+  align-items: center;
+  background: #e8eee2;
+  border-radius: 13px;
+  color: var(--green);
+  display: flex;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  height: 52px;
+  justify-content: center;
+  letter-spacing: -3px;
+  padding: 0 3px 5px 0;
+  width: 52px;
+}
+
+.eyebrow {
+  color: var(--green);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  margin: 29px 0 9px;
+  text-transform: uppercase;
+}
+
+.login-card h1,
+.notes-intro h1 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -1.3px;
+}
+
+.login-card h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.login-description {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 9px 0 25px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  color: #475349;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+.login-form input,
+.note-composer input,
+.note-composer textarea {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  outline: none;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.login-form input {
+  height: 47px;
+  margin-bottom: 0;
+  padding: 0 13px;
+  width: 100%;
+}
+
+.field-hint {
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.5;
+  margin: 7px 1px 19px;
+  min-height: 17px;
+}
+
+.account-summary {
+  align-items: center;
+  background: #f7f8f3;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: #526054;
+  display: flex;
+  font-size: 12px;
+  gap: 9px;
+  margin-bottom: 20px;
+  min-height: 42px;
+  padding: 0 11px;
+}
+
+.account-summary > span:first-child {
+  color: var(--green);
+}
+
+.account-summary > span:nth-child(2) {
+  flex: 1;
+  overflow-wrap: anywhere;
+}
+
+.change-account-button {
+  background: transparent;
+  border: 0;
+  color: var(--green);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 0 6px 5px;
+}
+
+.change-account-button:hover,
+.password-visibility:hover {
+  color: var(--green-dark);
+  text-decoration: underline;
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-field input {
+  padding-right: 58px;
+}
+
+.password-visibility {
+  background: transparent;
+  border: 0;
+  color: var(--green);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 7px 10px;
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.login-form input::placeholder,
+.note-composer input::placeholder,
+.note-composer textarea::placeholder {
+  color: #a4aaa1;
+}
+
+.login-form input:focus,
+.note-composer input:focus,
+.note-composer textarea:focus {
+  border-color: #89a18b;
+  box-shadow: 0 0 0 3px rgba(69, 99, 76, 0.1);
+}
+
+.primary-button {
+  align-items: center;
+  background: var(--green);
+  border: 0;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  font-size: 13px;
+  font-weight: 600;
+  justify-content: center;
+  transition: background 160ms ease, transform 160ms ease;
+}
+
+.primary-button:hover {
+  background: var(--green-dark);
+  transform: translateY(-1px);
+}
+
+.login-button {
+  gap: 10px;
+  height: 48px;
+  margin-top: 2px;
+}
+
+.login-button span {
+  font-size: 17px;
+}
+
+.form-message {
+  color: var(--error);
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 11px 0 0;
+  min-height: 18px;
+}
+
+.form-message:not(.is-visible) {
+  visibility: hidden;
+}
+
+.login-footnote {
+  align-items: flex-start;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  display: flex;
+  font-size: 11px;
+  gap: 7px;
+  line-height: 1.6;
+  margin: 20px 0 0;
+  padding-top: 18px;
+}
+
+.login-footnote span {
+  color: var(--green);
+  flex: 0 0 auto;
+}
+
+.account-switch {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 3px;
+}
+
+.account-switch > span {
+  color: var(--muted);
+}
+
+.account-switch button {
+  background: transparent;
+  border: 0;
+  color: var(--green);
+  font-size: inherit;
+  font-weight: 600;
+  padding: 4px;
+}
+
+.account-switch button:hover {
+  color: var(--green-dark);
+  text-decoration: underline;
+}
+
+.page-caption {
+  bottom: 17px;
+  color: #8d968b;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 13px;
+  font-style: italic;
+  margin: 0;
+  position: absolute;
+}
+
+.notes-page {
+  margin: 0 auto;
+  max-width: 1120px;
+  min-height: 100vh;
+  padding: 0 42px;
+}
+
+.notes-header {
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  height: 82px;
+  justify-content: space-between;
+}
+
+.wordmark {
+  align-items: center;
+  color: var(--ink);
+  display: flex;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 20px;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.brand-mark.small {
+  border-radius: 8px;
+  font-size: 20px;
+  height: 34px;
+  width: 34px;
+}
+
+.logout-button {
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  color: #59645a;
+  font-size: 12px;
+  padding: 10px 13px;
+  transition: border-color 150ms ease, color 150ms ease;
+}
+
+.logout-button:hover {
+  border-color: #9cac99;
+  color: var(--green-dark);
+}
+
+.logout-button span {
+  margin-left: 6px;
+}
+
+.notes-content {
+  margin: 0 auto;
+  max-width: 760px;
+}
+
+.notes-intro {
+  padding: 61px 0 30px;
+}
+
+.notes-intro .eyebrow {
+  margin: 0 0 13px;
+}
+
+.notes-intro h1 {
+  font-size: clamp(36px, 6vw, 49px);
+  margin: 0;
+}
+
+.notes-intro h1 em {
+  color: var(--green);
+}
+
+.notes-intro > p:last-child {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 12px 0 0;
+}
+
+.note-composer {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(46, 62, 45, 0.04);
+  padding: 21px 23px 16px;
+}
+
+.note-composer input,
+.note-composer textarea {
+  border-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+.note-composer input {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 19px;
+  padding: 8px 5px 12px;
+}
+
+.note-composer textarea {
+  font-size: 13px;
+  line-height: 1.7;
+  padding: 5px;
+  resize: vertical;
+}
+
+.composer-heading {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.composer-heading h2 {
+  color: #526054;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0 0 5px;
+}
+
+.visually-hidden {
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.composer-footer {
+  align-items: center;
+  border-top: 1px solid #eff0eb;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 13px;
+  padding-top: 14px;
+}
+
+.composer-footer > span {
+  color: #919990;
+  font-size: 10px;
+}
+
+.save-button {
+  gap: 9px;
+  min-height: 37px;
+  padding: 0 14px;
+}
+
+.save-button span {
+  font-size: 17px;
+}
+
+.saved-notes {
+  padding: 39px 0 60px;
+}
+
+.notes-toolbar {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.section-heading {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.section-heading h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.note-count {
+  align-items: center;
+  background: #e8eee2;
+  border-radius: 12px;
+  color: var(--green);
+  display: inline-flex;
+  font-size: 10px;
+  height: 21px;
+  justify-content: center;
+  min-width: 21px;
+  padding: 0 6px;
+}
+
+.empty-state {
+  align-items: center;
+  border: 1px dashed #d9dfd4;
+  border-radius: 10px;
+  color: var(--muted);
+  display: flex;
+  flex-direction: column;
+  padding: 36px 20px;
+  text-align: center;
+}
+
+.empty-state > span {
+  color: #91a08a;
+  font-size: 24px;
+}
+
+.empty-state p {
+  color: #556156;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 16px;
+  margin: 9px 0 5px;
+}
+
+.empty-state small {
+  font-size: 11px;
+}
+
+.note-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.notes-tabs {
+  background: #edf0e9;
+  border-radius: 8px;
+  display: flex;
+  gap: 3px;
+  padding: 3px;
+}
+
+.notes-tab {
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  color: #727d72;
+  font-size: 11px;
+  padding: 7px 10px;
+}
+
+.notes-tab.is-active {
+  background: var(--white);
+  box-shadow: 0 1px 3px rgba(46, 62, 45, 0.1);
+  color: var(--green-dark);
+  font-weight: 600;
+}
+
+.note-card {
+  background: rgba(255, 254, 250, 0.82);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  min-width: 0;
+  padding: 17px 18px;
+}
+
+.note-card-top {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  min-height: 22px;
+}
+
+.note-card time {
+  color: #909990;
+  font-size: 10px;
+}
+
+.note-actions {
+  align-items: center;
+  display: flex;
+  gap: 9px;
+}
+
+.text-button {
+  background: transparent;
+  border: 0;
+  color: var(--green);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px 3px;
+}
+
+.text-button:hover {
+  color: var(--green-dark);
+  text-decoration: underline;
+}
+
+.danger-button {
+  color: var(--error);
+}
+
+.edited-label,
+.deleted-date {
+  color: #929b91;
+  font-size: 10px;
+}
+
+.delete-button {
+  background: transparent;
+  border: 0;
+  color: #9ba39a;
+  font-size: 21px;
+  line-height: 1;
+  padding: 0 3px;
+}
+
+.delete-button:hover {
+  color: var(--error);
+}
+
+.note-message {
+  color: var(--error);
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 10px 4px 0;
+}
+
+.note-card h3 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 11px 0 7px;
+  overflow-wrap: anywhere;
+}
+
+.note-card > p {
+  color: #657066;
+  font-size: 12px;
+  line-height: 1.65;
+  margin: 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.notes-footer {
+  border-top: 1px solid var(--line);
+  color: #98a096;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 12px;
+  font-style: italic;
+  padding: 18px 0 22px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .login-card {
+    padding: 34px 26px 25px;
+  }
+
+  .notes-page {
+    padding: 0 20px;
+  }
+
+  .notes-header {
+    height: 70px;
+  }
+
+  .notes-intro {
+    padding-top: 45px;
+  }
+
+  .note-composer {
+    padding: 16px 14px 14px;
+  }
+
+  .composer-footer {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .composer-footer > span {
+    line-height: 1.5;
+    max-width: 150px;
+  }
+
+  .notes-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .note-grid {
+    grid-template-columns: 1fr;
+  }
+}
